@@ -1,0 +1,35 @@
+
+.naranja{
+	background-color: #FFDEAD;
+	text-align: center;
+	height: auto;
+	max-width: 100%;
+}
+.cafe{
+	background-color: #D2B48C;
+	text-align: center;
+	height: auto;
+	max-width: 100%;
+
+}
+.azul{
+	background-color: #CCFFFF;
+	text-align: center;
+	height: auto;
+	max-width: 100%;
+
+}
+.container{
+	margin: 0 auto;
+	width: 930px;
+	border:solid 1px #FFF;
+}
+img{
+	height: auto;
+	max-width: 100%;
+}
+@media only screen and (max-width: 380px){
+	.container, .row, .carousel-caption {
+		width: 100%;
+	}
+}
